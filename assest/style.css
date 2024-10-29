@@ -1,0 +1,133 @@
+*{
+    font-family: "Prata", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.img-hero{
+    height: 75vh !important;
+}
+.hero-div p{
+    width: 350px !important;
+}
+.hero-div h1{
+    width: 295px !important;
+}
+body{
+    background-color: rgb(243 242 236);
+}
+.first-color{
+    background-color: rgb(243 242 236);
+}
+.secondary-color{
+background-color: rgb(237 235 228);
+}
+.btn-color{
+   color: rgb(197 169 146);
+   border-color:rgb(197 169 146) !important;
+   border-radius: 0px !important;
+}
+/* .cr{
+    transform: translate(-6REM,-12REM) !important;} */
+.card-seba h1{
+font-size: 41px;
+
+}
+/* .carouse-seba{
+    /* bottom: 400 px !important; */
+
+.scroll-btn{
+border: 2px solid gray;
+    border-radius: 50% !important;
+    background-color: rgb(243 242 236);
+    height: 27px;
+    width: 39px !important;
+    padding: 2px !important;
+}
+/* featured books */
+.secondary-color-txt{
+    color: rgb(203 201 199);
+}
+.gray-line{
+    border-width: 0.8px !important;
+        border-color: rgb(227 224 221)!important;
+
+}
+/* selling */
+ .border-best-book{
+border-width: 8px !important;
+border-color: rgb(243 242 236) !important;
+ }
+.best-book-img{
+    height: 406px !important;
+}
+.best-selling-h2{
+    width: 258px !important;
+}
+.boder-sh{
+    border-bottom: 2px solid #74642f !important;
+    width: 50px;
+}
+.boder-sh2 {
+    border-bottom: 2px solid #74642f !important;
+    width: fit-content;
+}
+.green_color{
+color: #74642f;
+}
+.detaill-body{
+    width: 350px;
+    /* height: 340px;; */
+}
+
+/* subscrib */
+.subscrib-p{
+    width: 251px;
+}
+.subscrib-h2{
+    width: 277px;
+}
+
+/* footer */
+.span-footer {
+    color: rgb(197 169 146);justify-content: space-between;
+}
+.icones a{
+text-decoration: none;
+}
+@media (min-width: 300px)and (max-width: 991px) {
+.carouse-seba {
+    bottom: 400px !important;
+}
+ .card-seba{
+        margin: 0px !important;
+    }
+}
+@media (min-width: 300px)and (max-width: 769px) {
+   
+    .img-hero{
+        height: 50vh !important;
+    }
+    .hero-div h1{
+        width: 100% !important;
+    }
+    .hero-div p{
+        width: 300px !important;
+    }
+.subscrib-h2{
+    width: 263px;
+}
+.boder-sh{
+    MARGIN-LEFT: 9PX;
+}
+.icones{
+        display: flex !important;
+            justify-content: end !important;
+            width: 100% !important;
+            margin-right: 5px !important;
+}
+.copyright p{
+    text-align: center;
+    margin: 0px !important;
+}
+}
